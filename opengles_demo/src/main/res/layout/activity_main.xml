@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.baishengye.opengles_demo.MainActivity.MainStates" />
+
+        <variable
+            name="clickProxy"
+            type="com.baishengye.opengles_demo.MainActivity.ClickProxy" />
+    </data>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnGL2D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGL2DActivity(view)}"
+                    android:text="尝试平面绘制图形" />
+
+                <Button
+                    android:id="@+id/btnGL3D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGL3DActivity(view)}"
+                    android:text="尝试绘制立方体" />
+
+                <Button
+                    android:id="@+id/btnGLTexture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGLTextureActivity(view)}"
+                    android:text="尝试平面绘制纹理" />
+
+                <Button
+                    android:id="@+id/btnGLTexture3D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGLTexture3DActivity(view)}"
+                    android:text="尝试立方体绘制纹理" />
+
+                <Button
+                    android:id="@+id/btnGLTextureAssembly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGLTextureAssemblyActivity(view)}"
+                    android:text="尝试平面绘制纹理组合" />
+
+                <Button
+                    android:id="@+id/btnGLOOP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGLOOPActivity(view)}"
+                    android:text="使用面向对象尝试立方体绘制纹理" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</layout>
