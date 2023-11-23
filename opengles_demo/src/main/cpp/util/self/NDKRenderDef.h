@@ -22,6 +22,30 @@
 #include <android/asset_manager_jni.h>
 #include <android/asset_manager.h>
 
+#include "NDKAndroidLog.h"
+
+/**
+ * 释放指针*/
+template<typename T>
+void SafePtrDelete(T* ptr)
+{
+    delete ptr;
+    ptr = NULL;
+}
+
+class GlobalDefine
+{
+    inline static void PrintGLError()
+    {
+        GLenum err = glGetError();
+        if (err != GL_NO_ERROR)
+        {
+            LOGD("glError: %u",err);
+        }
+    }
+
+};
+
 #ifdef __cplusplus
 extern "C" {
 #endif

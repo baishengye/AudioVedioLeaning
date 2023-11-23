@@ -9,6 +9,7 @@ import com.baishengye.opengles_demo.test3_gl_texture.GLTextureActivity
 import com.baishengye.opengles_demo.test4_gl_texture_3d.GLTexture3DActivity
 import com.baishengye.opengles_demo.test5_gl_texture_assembly.GLTextureAssemblyActivity
 import com.baishengye.opengles_demo.test6_gl_oop.GLOOPActivity
+import com.baishengye.opengles_demo.test7_gl_buffer.GLBufferActivity
 import com.xiaoyingbo.lib_architecture.data.response.networkState.NetworkStateCallback
 import com.xiaoyingbo.lib_architecture.ui.page.BaseActivity
 import com.xiaoyingbo.lib_architecture.ui.page.DataBindingConfig
@@ -63,5 +64,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             this@MainActivity.startActivity(Intent(this@MainActivity, GLOOPActivity::class.java))
         }
 
+        fun toGLBufferActivity(view: View) {
+            this@MainActivity.startActivity(Intent(this@MainActivity, GLBufferActivity::class.java))
+        }
     }
 }

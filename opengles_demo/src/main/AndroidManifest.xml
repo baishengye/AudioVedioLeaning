@@ -27,6 +27,7 @@
         <activity android:name=".test4_gl_texture_3d.GLTexture3DActivity"/>
         <activity android:name=".test5_gl_texture_assembly.GLTextureAssemblyActivity"/>
         <activity android:name=".test6_gl_oop.GLOOPActivity"/>
+        <activity android:name=".test7_gl_buffer.GLBufferActivity"/>
     </application>
 
 </manifest>

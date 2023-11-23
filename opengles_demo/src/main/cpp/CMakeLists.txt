@@ -97,3 +97,21 @@ target_link_libraries(Test6_OpenGLRender
         -lGLESv1_CM
         -lGLESv2
         log)
+
+add_library(Test7_OpenGLRender SHARED
+        # List C/C++ source files with relative paths to this CMakeLists.txt.
+        util/self/NDKImage.cpp
+        util/self/NDKTexture.cpp
+        util/self/NDKBuffer.cpp
+        jni/test7_gl_buffer/test7_NDKRender.cpp
+        jni/test7_gl_buffer/test7_OpenGLNDKRender.cpp)
+
+# Specifies libraries CMake should link to your target library. You
+# can link libraries from various origins, such as libraries defined in this
+# build script, prebuilt third-party libraries, or Android system libraries.
+target_link_libraries(Test7_OpenGLRender
+        # List libraries link to the target library
+        -landroid
+        -lGLESv1_CM
+        -lGLESv2
+        log)

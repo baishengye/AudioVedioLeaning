@@ -72,6 +72,13 @@
                     android:onClick="@{(view)->clickProxy.toGLOOPActivity(view)}"
                     android:text="使用面向对象尝试立方体绘制纹理" />
 
+                <Button
+                    android:id="@+id/btnGLBuffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{(view)->clickProxy.toGLBufferActivity(view)}"
+                    android:text="使用VBO和EBO尝试立方体绘制纹理" />
+
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </FrameLayout>

@@ -9,7 +9,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9cf91f-6d24-4f06-9b72-5b6d97e7b10d" name="Changes" comment="feat:初次提交" />
+    <list default="true" id="1e9cf91f-6d24-4f06-9b72-5b6d97e7b10d" name="Changes" comment="feat:初次提交">
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/jni/test7_gl_buffer/test7_NDKRender.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/jni/test7_gl_buffer/test7_OpenGLNDKRender.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKBuffer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test7_gl_buffer/GLBufferActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test7_gl_buffer/GLBufferRender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_gl_oop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRender.h" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRenderDef.h" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRenderDef.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test6_gl_oop/GLOOPActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test6_gl_oop/GLOOPActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_glt_oop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_gl_buffer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +44,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1700646775" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1700646774" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectId" id="2XROaSL7JQEnjymPCgDp5lEEOOG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,18 +85,18 @@
     "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Code/AndroidStudio/AudioVedioLeaning",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Code/AndroidStudio/AudioVedioLeaning/opengles_demo/src/main/cpp/util/self",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni\test6_gl_oop" />
       <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\util\self" />
-      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni\test5_gl_texture_assembly" />
-      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\jniLibs" />
-      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni\test4_gl_texture_3d" />
+      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni" />
+      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\java\com\baishengye\opengles_demo\test7_gl_buffer" />
+      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\res\layout" />
+      <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni\test6_gl_oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\AndroidStudio\AudioVedioLeaning\opengles_demo\src\main\cpp\jni\test6_gl_oop" />
@@ -213,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700646251775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:初次提交">
+      <created>1700648211548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700648211548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

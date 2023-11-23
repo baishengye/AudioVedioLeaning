@@ -7,6 +7,7 @@
 
 
 #include "NDKRenderDef.h"
+#include "NDKBuffer.h"
 #include "NDKImage.h"
 
 
@@ -31,7 +32,8 @@ private:
     GLuint m_texID[6];
 
     AAssetManager *m_pAssetManager;
-
+    NDKBuffer*     m_pVBO;
+    NDKBuffer*     m_pEBO;
 
 };
 
