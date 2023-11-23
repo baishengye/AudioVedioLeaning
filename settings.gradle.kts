@@ -34,3 +34,4 @@ dependencyResolutionManagement {
 rootProject.name = "AudioVedioLeaning"
 include(":app")
 include(":opengles_demo")
+include(":oboedemo")

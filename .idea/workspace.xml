@@ -9,23 +9,40 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9cf91f-6d24-4f06-9b72-5b6d97e7b10d" name="Changes" comment="feat:初次提交">
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/jni/test7_gl_buffer/test7_NDKRender.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/jni/test7_gl_buffer/test7_OpenGLNDKRender.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKBuffer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKBuffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test7_gl_buffer/GLBufferActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test7_gl_buffer/GLBufferRender.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_gl_oop.xml" afterDir="false" />
+    <list default="true" id="1e9cf91f-6d24-4f06-9b72-5b6d97e7b10d" name="Changes" comment="feat:VBO和EBO使用">
+      <change afterPath="$PROJECT_DIR$/oboedemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/androidTest/java/com/baishengye/oboedemo/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/java/com/baishengye/oboedemo/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oboedemo/src/test/java/com/baishengye/oboedemo/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRender.h" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRender.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRenderDef.h" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/cpp/util/self/NDKRenderDef.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test6_gl_oop/GLOOPActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/java/com/baishengye/opengles_demo/test6_gl_oop/GLOOPActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_glt_oop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_gl_buffer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opengles_demo/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/opengles_demo/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +99,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
     "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
@@ -106,9 +124,75 @@
       <recent name="E:\Code\AndroidStudio\AudioVedioLeaning" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.opengles_demo">
+  <component name="RunManager" selected="Android App.oboedemo">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="AudioVedioLeaning.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oboedemo" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="AudioVedioLeaning.oboedemo.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -263,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700648211548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:VBO和EBO使用">
+      <created>1700731208465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700731208465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +370,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:初次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:初次提交" />
+    <MESSAGE value="feat:VBO和EBO使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:VBO和EBO使用" />
   </component>
 </project>

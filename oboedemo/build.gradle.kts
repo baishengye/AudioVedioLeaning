@@ -1,8 +1,6 @@
-@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.kotlinAndroid)
-    alias(libs.plugins.ksp)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
 }
 
@@ -11,12 +9,12 @@ kapt {
 }
 
 android {
-    namespace = "com.baishengye.opengles_demo"
+    namespace = "com.baishengye.oboedemo"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.baishengye.opengles_demo"
-        minSdk = 19
+        applicationId = "com.baishengye.oboedemo"
+        minSdk = 21
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -25,6 +23,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags += ""
+                arguments += "-DANDROID_STL=c++_shared"
             }
         }
     }
@@ -45,17 +44,18 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    externalNativeBuild {
-        cmake {
-            path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.22.1"
-        }
-    }
     buildFeatures{
         viewBinding = true
         dataBinding = true
         aidl = true
         buildConfig = true
+        prefab = true
+    }
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+            version = "3.22.1"
+        }
     }
 }
 
@@ -68,6 +68,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(libs.oboe)
 
     implementation(libs.lib.architecture)
 }
